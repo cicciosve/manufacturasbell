@@ -1,0 +1,52 @@
+MANUFACTURAS BELL - PC Y CELULAR
+
+1. Extrae TODO el ZIP en una carpeta nueva.
+2. En Windows, haz doble clic en ABRIR-EN-WINDOWS.bat.
+   Requiere Node.js instalado. No necesitas npm ni instalar paquetes.
+3. En la PC, abre http://localhost:8000
+4. Conecta el celular a la misma red Wi-Fi de la PC.
+5. En el celular, escribe el enlace que aparece en la ventana como
+   "En el celular (misma red Wi-Fi)". Usa esa IP, no localhost.
+
+Mantén encendida la PC y abierta la ventana del servidor.
+Si Windows pregunta por acceso de red para Node.js, permite redes privadas
+para que el celular pueda conectarse. No hace falta abrir puertos del router.
+Si aparecen varias IP, usa la de la conexión Wi-Fi o Ethernet de tu casa.
+Las redes de invitados o con aislamiento pueden impedir la conexión.
+
+En macOS o Linux: abre una terminal en esta carpeta y ejecuta:
+node servidor-local.cjs
+
+Para detener: Ctrl+C en la ventana del servidor.
+
+IMÁGENES
+El catálogo usa seis PNG con transparencia de 1536 a 1983 píxeles de ancho,
+preparados mediante edición asistida a partir de tus referencias originales.
+Se conservan sin reducción de resolución. La edición puede modificar detalles
+pequeños de etiquetas; no se puede garantizar detalle real inexistente en el original.
+
+No es una publicación en Internet. El servidor se ejecuta en tu propia PC.
+
+FICHAS Y ENLACES DE PRODUCTOS
+Haz clic en la foto, nombre o flecha de un producto para abrir su ficha.
+Elige la medida y agrega al carrito. Compartir copia automáticamente el enlace de la ficha.
+En la red local, copia enlaces desde la dirección IP de la PC, no localhost,
+para que otro dispositivo de la misma Wi-Fi pueda abrirlos.
+Para usar estos enlaces con clientes desde Instagram hay que publicar la web
+en un dominio público. El ZIP no publica la página en Internet.
+Cada producto cuenta actualmente con una foto real disponible. La galería
+permite añadir más imágenes al campo photos de cada modelo en dist/app.js.
+
+ATENCIÓN ACARIGUA
+WhatsApp: 0422-0533247 (internacional: 584220533247).
+Dirección: Calle 31 con Av. 25, avenida Páez, edificio Casino, P/B,
+local 4B. Acarigua 3301.
+Selecciona Atención Acarigua y pulsa Termina tu pedido para abrir WhatsApp
+con el resumen. Jessica (Barquisimeto) y Manuel (Tucacas) siguen activos.
+
+CORRECCIÓN DE NAVEGACIÓN
+El catálogo y las fichas usan ahora index.html para compartir el mismo
+almacenamiento incluso al abrir los archivos directamente. Los enlaces
+antiguos a producto.html redirigen a la ficha correspondiente.
+Al volver con Atrás, se actualizan el tema y la bolsa.
+Para probar en PC y celular se recomienda ABRIR-EN-WINDOWS.bat.
